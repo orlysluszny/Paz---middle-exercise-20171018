@@ -1,0 +1,157 @@
+/* Styles go here */
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial;
+    color:white;
+    direction: rtl;
+    text-align: right;
+    margin: 0 0;
+    padding: 0 0;
+    font-weight: bold;
+  }
+
+  header {
+    position: relative;
+    background: linear-gradient(rgb(144,144,144)85% rgb(177, 177, 177));
+    padding-top: 20px;
+    text-align: center;
+  }
+
+  .search {
+    text-align: left;
+    width: 900px;
+    font-size: 12px;
+    margin: 0 auto;
+  }
+  .search img {
+      position: relative;
+      top:3px;
+  }
+  .searchword {
+      background-color: white;
+  }
+  .searchword {
+      color: black;
+      line-height: 25px;
+  }
+  .searchword >li{
+      display: inline;
+      list-style: none;
+  }
+  .searchword >a {
+    color: black;
+  }
+  .search >li>a {
+    text-decoration: none;
+    color: white;
+  }
+  
+  .horizontal {
+   
+    position: relative;
+    border-style: solid;
+ 
+  }
+  
+  .horizontal ul {
+    list-style: none;
+    padding: 10px;
+    border-radius: 0 0 25px 0;
+  }
+  
+  .horizontal >ul >li {
+    display: inline;
+  }
+  
+  .horizontal >ul >li >a {
+    text-decoration: none;
+    font-weight: bold;
+    color: white;
+    font-family: arial;
+    font-size: 14px;
+    display: inline-block;
+    padding-right: 10px;
+    padding-left: 10px;
+    border-right: 3px solid white;
+  }
+  
+  .horizontal ul li a:hover {
+    text-decoration: underline;
+    color: blue;
+  }
+  .menu {
+    position: relative;
+    border-right: thick white;
+  }
+  .dropdown-content {
+    display: none;
+    text-decoration: none;
+    background-color: gray;
+    position: absolute;
+    z-index:1000;
+    right: 0;
+    font-weight: bold;
+  }
+  
+  .dropdown-content a {
+  font-family: arial;
+  font-size: 12px;
+  color: white;
+    display: block;
+    text-decoration: none;
+    font-family: arial;
+    font-size: 12px;
+    margin: 5px;
+    border-top: thick white;
+  }
+  
+  .menu:hover .dropdown-content{
+    display: block;
+  }
+  
+  
+  /**images*/
+  .column-width33 {
+    position: relative;
+    float: left;
+    padding:10px;
+    width: 33%;
+
+  }
+  
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  .row {
+    margin-top: 10px;
+    border-radius: 0 0 25px 0;
+    width: 900px;
+  } 
+  
+  .fix-size {
+    width: 80%;
+    border-radius: 0 0 25px 0;
+    background-color: gray;
+  }
+  
+  .trans {
+      position: relative;
+      float: left;
+  }
+  .semi-trans {
+    position: absolute;
+    float: left;
+    padding:0px;
+    width: 33%;
+    border-radius: 0 0 25px 0;
+  
+  }
+  
+  
+  
